@@ -2,10 +2,11 @@
 <html>
 
 <head>
-    <title>Lorem Guessem</title>
+    <title>Was it Communist China?</title>
     <!-- Reset -->
-    <link rel="stylesheet" href="assets/CSS/reset.css">
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -19,6 +20,63 @@
 
 <body>
 
+    <div id="container">
+        <div class="row">
+            <div class="col-sm-6">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <div class="jumbotron">
+                <div id="question"></div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col">
+                </div>
+                <div id="choices">
+                    <span class="align-middle">
+                        <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                        <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                        <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                    </span>
+                </div>
+                <div class="col">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2">
+                    <div id="timer">
+                        <div id="counter"></div>
+                        <div id="btimeGauge"></div>
+                        <div id="timeGauge"></div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div id="progress"></div>
+                </div>
+            </div>
+        </div>
+        <div id="qImg"></div>
+
+
+
+    </div>
+
+
+
+
+
+    <script src="Assets/Javascript/app.js"></script>
 </body>
 
 </html>
