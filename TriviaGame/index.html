@@ -20,28 +20,21 @@
 
 <body>
 
-    <div id="container">
+    <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-2"></div>
+            <div class="col-3 jumbotron jumbotron-sp">
+                <div id="qImg"></div>
             </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6">
-            <div class="jumbotron">
-                <div id="question"></div>
-            </div>
-
-        </div>
-    </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="jumbotron">
-            <div class="row">
-                <div class="col">
+            <div class="col-5">
+                <div class="jumbotron align-items-center jumbotron-special">
+                    <div id="question"></div>
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 jumbotron">
                 <div id="choices">
                     <span class="align-middle">
                         <div class="choice" id="A" onclick="checkAnswer('A')"></div>
@@ -49,28 +42,25 @@
                         <div class="choice" id="C" onclick="checkAnswer('C')"></div>
                     </span>
                 </div>
-                <div class="col">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-2">
-                    <div id="timer">
-                        <div id="counter"></div>
-                        <div id="btimeGauge"></div>
-                        <div id="timeGauge"></div>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div id="progress"></div>
-                </div>
             </div>
         </div>
-        <div id="qImg"></div>
-
-
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4 jumbotron jumbotron-sp2">
+                <div id="timer">
+                    <div id="counter"></div>
+                    <div id="btimeGauge"></div>
+                    <div id="timeGauge"></div>
+                </div>
+            </div>
+            <div class="col-sm-4 jumbotron jumbotron-sp2">
+                <div id="progress"></div>
+            </div>
+        </div>
 
     </div>
+
+
 
 
 
